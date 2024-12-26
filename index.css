@@ -1,6 +1,10 @@
 body {
     text-align: center;
-    background-color: #997950;
+    background-color: #18181f;
+    display: block;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -8,19 +12,37 @@ img {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
-#instagram-link {
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.personal-website{
+    border: 1px solid #454b5f;
+    border-radius: 5px;
+    padding: 0.625em;
+    margin: 1.25em 3.125em;
+}
+
+.socials-color{
+    color: #fff;
+}
+
+#socials-list{
+    margin: 0.625em 2.1875em 0.625em 2.1875em;
     display: flex;
-    text-align: center;
-    justify-content: space-between;
-    margin: 5px 45px 5px 45px;
-    padding: 10px 15px 10px 15px;
-    background-color: green;
-    border-radius: 7px;
+    justify-content: space-around;
+    font-size: 2rem;
 }
 
-.fa-instagram {
-    font-size: 25px;
-}
+
+/* @media (min-width: 768px) {
+    body {
+        display: flex;
+    }
+} */
+
+/* will work on responsiveness another day */

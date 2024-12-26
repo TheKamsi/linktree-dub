@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Linktree Dub</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <title>Kamsi</title>
     <link rel="stylesheet" href="index.css" />
     <script
       src="https://kit.fontawesome.com/93cf8d78b7.js"
@@ -11,17 +29,18 @@
     ></script>
   </head>
   <body>
-    <div>
-      <div>
-        <img src="profile-pic.jpg" alt="a profile picture of kamsi" />
-      </div>
-      <div>
-        <div id="instagram-link">
-          <i class="fa-brands fa-instagram"></i>
-
-          <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </div>
+    <img src="/images/profile-pic.jpg" alt="profile pic of kamsi" />
+    <div class="personal-website">
+      <a href="website.html" target="_blank">PERSONAL WEBSITE</a>
     </div>
+    <div id="socials-list">
+      <!-- Render socials here -->
+    </div>
+    <div class="personal-website">
+      <a href="https://thekamsi.wixsite.com/my-site-3" target="_blank"
+        >MODELLING PORTFOLIO</a
+      >
+    </div>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
